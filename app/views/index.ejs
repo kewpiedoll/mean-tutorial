@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="js/canvas.js"></script>
+  </head>
+  <body>
+    <div>
+	  <select id="carSelect">
+	    <option value="volvo">Volvo</option>
+	    <option value="saab">Saab</option>
+	    <option value="mercedes">Mercedes</option>
+	    <option value="audi">Audi</option>
+	    <option value="buick">Buick</option>
+	  </select> 
+      <button onclick="addFieldOne()">Add Field 1</button>
+    </div>
+    <div>
+      <canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;">
+      </canvas>
+    </div>
+  </body>
+</html>
